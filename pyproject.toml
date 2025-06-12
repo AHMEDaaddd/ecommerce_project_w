@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ecommerce-project"
+version = "0.1.0"
+description = "Домашнее задание 14.2"
+authors = ["Your Name <you@example.com>"]
+
+# Отключаем установку текущего пакета
+package-mode = false
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-cov = "^4.1.0"
+flake8 = "^7.0.0"
+black = "^24.0.0"
+mypy = "^1.8.0"
+pydocstyle = "^6.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
